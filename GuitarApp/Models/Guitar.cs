@@ -12,22 +12,13 @@ namespace GuitarApp.Models
         public string SerialNumber { get; set; }
         public double Price { get; set; }
         public GuitarSpecs Specs {  get; set; }
-        //public Builder Builder { get; set; }
-        //public string Model { get; set; }
-        //public Types Type { get; set; }
-        //public Wood BackWood { get; set; }
-        //public Wood TopWood { get; set; }
+       
 
-        public Guitar(string serialno, double price, Builder builder, string model, Types type, Wood backwood, Wood topwood)
+        public Guitar(string serialno, double price, GuitarSpecs spec)
         {
             SerialNumber = serialno;
             Price = price;
-            Specs = new GuitarSpecs(builder, model, type, backwood, topwood);
-            //Builder = builder;
-            //Model = model;
-            //Type = type;
-            //BackWood = backwood;
-            //TopWood = topwood;
+            Specs = spec;
         }
 
         public string GetSerialNumber()
@@ -45,37 +36,10 @@ namespace GuitarApp.Models
             Price = price;
         }
 
-        //public Builder GetBuilder()
-        //{
-        //    return Builder;
-        //}
-
-        //public string GetModel()
-        //{
-        //    return Model;
-        //}
-
-        //public Types GetType()
-        //{
-        //    return Type;
-        //}
-
-        //public Wood GetBackWood()
-        //{
-        //    return BackWood;
-        //}
-
-        //public Wood GetTopWood()
-        //{
-        //    return TopWood;
-        //}
-        public GuitarSpecs getSpecs()
+      
+        public GuitarSpecs GetSpecs()
         {
-            Specs.GetBuilder();
-            Specs.GetModel();
-            Specs.GetType();
-            Specs.GetBackWood();
-            Specs.GetTopWood();
+           
             return Specs;
         }
 
@@ -86,6 +50,8 @@ namespace GuitarApp.Models
                 $"Price: {Price}\n" +
                 $"Builder: {Specs.Builder}\n" +
                 $"Model: {Specs.Model}\n" +
+                $"Type: {Specs.Type}\n" +
+                $"NumStrings: {Specs.GetNumStrings()}\n" +
                 $"Backwood: {Specs.BackWood}\n" +
                 $"Topwood: {Specs.TopWood}\n";
         }

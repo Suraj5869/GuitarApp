@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GuitarApp.Exceptions;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,9 +12,10 @@ namespace GuitarApp.Models
         static List<Guitar> guitars = new List<Guitar>();
         
 
-         public void AddGuitar(String serialno, double price, Builder builder, string model, Types type, Wood backwood, Wood topwood)
+         public void AddGuitar(String serialno, double price, Builder builder, string model, Types type, int numString, Wood backwood, Wood topwood)
         {
-            Guitar guitar = new Guitar(serialno, price, builder, model, type, backwood, topwood);
+            GuitarSpecs specs =new GuitarSpecs(builder, model, type, numString, backwood, topwood);
+            Guitar guitar = new Guitar(serialno, price, specs);
             guitars.Add(guitar);
         }
 
@@ -24,7 +26,7 @@ namespace GuitarApp.Models
             {
                 return guitar;
             }
-            return null;
+            throw new NoGuitarException("No Guitar with same serial number found!!\n");
         }
 
         public static List<Guitar> SearchGuitar(GuitarSpecs searchGuitar)
@@ -33,13 +35,11 @@ namespace GuitarApp.Models
             
             foreach (Guitar g in guitars)
             {
-                GuitarSpecs specs = g.getSpecs();
-                if ((searchGuitar.GetBuilder() == specs.Builder) && (searchGuitar.GetModel() == specs.Model)
-                    && (searchGuitar.GetType() == specs.Type) && (searchGuitar.GetBackWood() == specs.BackWood)
-                    && (searchGuitar.GetTopWood() == specs.TopWood))
+                if (g.GetSpecs().Matches(searchGuitar))
                 {
                     similarGuitaras.Add(g);
                 }
+                
                 
                 
             }
