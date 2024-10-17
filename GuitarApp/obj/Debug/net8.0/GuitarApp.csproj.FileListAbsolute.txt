@@ -1,0 +1,14 @@
+C:\Users\Suraj\OneDrive\Desktop\internship\Tasks\GuitarApp\GuitarApp\bin\Debug\net8.0\GuitarApp.exe
+C:\Users\Suraj\OneDrive\Desktop\internship\Tasks\GuitarApp\GuitarApp\bin\Debug\net8.0\GuitarApp.deps.json
+C:\Users\Suraj\OneDrive\Desktop\internship\Tasks\GuitarApp\GuitarApp\bin\Debug\net8.0\GuitarApp.runtimeconfig.json
+C:\Users\Suraj\OneDrive\Desktop\internship\Tasks\GuitarApp\GuitarApp\bin\Debug\net8.0\GuitarApp.dll
+C:\Users\Suraj\OneDrive\Desktop\internship\Tasks\GuitarApp\GuitarApp\bin\Debug\net8.0\GuitarApp.pdb
+C:\Users\Suraj\OneDrive\Desktop\internship\Tasks\GuitarApp\GuitarApp\obj\Debug\net8.0\GuitarApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Suraj\OneDrive\Desktop\internship\Tasks\GuitarApp\GuitarApp\obj\Debug\net8.0\GuitarApp.AssemblyInfoInputs.cache
+C:\Users\Suraj\OneDrive\Desktop\internship\Tasks\GuitarApp\GuitarApp\obj\Debug\net8.0\GuitarApp.AssemblyInfo.cs
+C:\Users\Suraj\OneDrive\Desktop\internship\Tasks\GuitarApp\GuitarApp\obj\Debug\net8.0\GuitarApp.csproj.CoreCompileInputs.cache
+C:\Users\Suraj\OneDrive\Desktop\internship\Tasks\GuitarApp\GuitarApp\obj\Debug\net8.0\GuitarApp.dll
+C:\Users\Suraj\OneDrive\Desktop\internship\Tasks\GuitarApp\GuitarApp\obj\Debug\net8.0\refint\GuitarApp.dll
+C:\Users\Suraj\OneDrive\Desktop\internship\Tasks\GuitarApp\GuitarApp\obj\Debug\net8.0\GuitarApp.pdb
+C:\Users\Suraj\OneDrive\Desktop\internship\Tasks\GuitarApp\GuitarApp\obj\Debug\net8.0\GuitarApp.genruntimeconfig.cache
+C:\Users\Suraj\OneDrive\Desktop\internship\Tasks\GuitarApp\GuitarApp\obj\Debug\net8.0\ref\GuitarApp.dll
