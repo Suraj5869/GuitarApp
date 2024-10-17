@@ -14,6 +14,14 @@ namespace GuitarApp.Models
         public Wood BackWood { get; set; }
         public Wood TopWood { get; set; }
 
+        public GuitarSpecs(Builder builder, string model, Types type, Wood backWood, Wood topWood)
+        {
+            Builder = builder;
+            Model = model;
+            Type = type;
+            BackWood = backWood;
+            TopWood = topWood;
+        }
         public Builder GetBuilder()
         {
             return Builder;

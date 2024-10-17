@@ -12,3 +12,4 @@ C:\Users\Suraj\OneDrive\Desktop\internship\Tasks\GuitarApp\GuitarApp\obj\Debug\n
 C:\Users\Suraj\OneDrive\Desktop\internship\Tasks\GuitarApp\GuitarApp\obj\Debug\net8.0\GuitarApp.pdb
 C:\Users\Suraj\OneDrive\Desktop\internship\Tasks\GuitarApp\GuitarApp\obj\Debug\net8.0\GuitarApp.genruntimeconfig.cache
 C:\Users\Suraj\OneDrive\Desktop\internship\Tasks\GuitarApp\GuitarApp\obj\Debug\net8.0\ref\GuitarApp.dll
+C:\Users\Suraj\OneDrive\Desktop\internship\Tasks\GuitarApp\GuitarApp\obj\Debug\net8.0\GuitarApp.sourcelink.json

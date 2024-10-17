@@ -11,22 +11,23 @@ namespace GuitarApp.Models
 
         public string SerialNumber { get; set; }
         public double Price { get; set; }
-        //public GuitarSpecs Specs {  get; set; }
-        public Builder Builder { get; set; }
-        public string Model { get; set; }
-        public Types Type { get; set; }
-        public Wood BackWood { get; set; }
-        public Wood TopWood { get; set; }
+        public GuitarSpecs Specs {  get; set; }
+        //public Builder Builder { get; set; }
+        //public string Model { get; set; }
+        //public Types Type { get; set; }
+        //public Wood BackWood { get; set; }
+        //public Wood TopWood { get; set; }
 
         public Guitar(string serialno, double price, Builder builder, string model, Types type, Wood backwood, Wood topwood)
         {
             SerialNumber = serialno;
             Price = price;
-            Builder = builder;
-            Model = model;
-            Type = type;
-            BackWood = backwood;
-            TopWood = topwood;
+            Specs = new GuitarSpecs(builder, model, type, backwood, topwood);
+            //Builder = builder;
+            //Model = model;
+            //Type = type;
+            //BackWood = backwood;
+            //TopWood = topwood;
         }
 
         public string GetSerialNumber()
@@ -44,49 +45,49 @@ namespace GuitarApp.Models
             Price = price;
         }
 
-        public Builder GetBuilder()
-        {
-            return Builder;
-        }
-
-        public string GetModel()
-        {
-            return Model;
-        }
-
-        public Types GetType()
-        {
-            return Type;
-        }
-
-        public Wood GetBackWood()
-        {
-            return BackWood;
-        }
-
-        public Wood GetTopWood()
-        {
-            return TopWood;
-        }
-        //public GuitarSpecs getSpecs()
+        //public Builder GetBuilder()
         //{
-        //    Specs.GetBuilder();
-        //    Specs.GetModel();
-        //    Specs.GetType();
-        //    Specs.GetBackWood();
-        //    Specs.GetTopWood();
-        //    return Specs;
+        //    return Builder;
         //}
 
-        public override string ToString()
+        //public string GetModel()
+        //{
+        //    return Model;
+        //}
+
+        //public Types GetType()
+        //{
+        //    return Type;
+        //}
+
+        //public Wood GetBackWood()
+        //{
+        //    return BackWood;
+        //}
+
+        //public Wood GetTopWood()
+        //{
+        //    return TopWood;
+        //}
+        public GuitarSpecs getSpecs()
+        {
+            Specs.GetBuilder();
+            Specs.GetModel();
+            Specs.GetType();
+            Specs.GetBackWood();
+            Specs.GetTopWood();
+            return Specs;
+        }
+
+    public override string ToString()
         {
             return $"Guitar Specifications\n" +
                 $"Serial no: {SerialNumber}\n" +
                 $"Price: {Price}\n" +
-                $"Builder: {Builder}\n" +
-                $"Model: {Model}\n" +
-                $"Backwood: {BackWood}\n" +
-                $"Topwood: {TopWood}\n";
+                $"Builder: {Specs.Builder}\n" +
+                $"Model: {Specs.Model}\n" +
+                $"Backwood: {Specs.BackWood}\n" +
+                $"Topwood: {Specs.TopWood}\n";
         }
 
     }

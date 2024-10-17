@@ -12,7 +12,7 @@ namespace GuitarApp.Controller
         //Inventory inventory = new Inventory();
 
         public List<Guitar> FindGuitar() {
-            Guitar findGuitar = new Guitar("", 0, Builder.COLLINGS, "model2", Types.ELECTRIC, Wood.ALDER, Wood.ALDER);
+            GuitarSpecs findGuitar = new GuitarSpecs(Builder.COLLINGS, "model2", Types.ELECTRIC, Wood.ALDER, Wood.ALDER);
             List<Guitar> SimilarGuitars = Inventory.SearchGuitar(findGuitar);
             if (SimilarGuitars.Count > 0)
             {

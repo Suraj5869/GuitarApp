@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{8A398693-0292-4737-A928-F2B5C0DBDFDF}|GuitarApp\\GuitarApp.csproj|solutionrelative:guitarapp\\models\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{8A398693-0292-4737-A928-F2B5C0DBDFDF}|GuitarApp\\GuitarApp.csproj|c:\\users\\suraj\\onedrive\\desktop\\internship\\tasks\\guitarapp\\guitarapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A398693-0292-4737-A928-F2B5C0DBDFDF}|GuitarApp\\GuitarApp.csproj|solutionrelative:guitarapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8A398693-0292-4737-A928-F2B5C0DBDFDF}|GuitarApp\\GuitarApp.csproj|c:\\users\\suraj\\onedrive\\desktop\\internship\\tasks\\guitarapp\\guitarapp\\controller\\findguitartester.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A398693-0292-4737-A928-F2B5C0DBDFDF}|GuitarApp\\GuitarApp.csproj|solutionrelative:guitarapp\\controller\\findguitartester.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,22 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8A398693-0292-4737-A928-F2B5C0DBDFDF}|GuitarApp\\GuitarApp.csproj|c:\\users\\suraj\\onedrive\\desktop\\internship\\tasks\\guitarapp\\guitarapp\\models\\guitar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A398693-0292-4737-A928-F2B5C0DBDFDF}|GuitarApp\\GuitarApp.csproj|solutionrelative:guitarapp\\models\\guitar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A398693-0292-4737-A928-F2B5C0DBDFDF}|GuitarApp\\GuitarApp.csproj|c:\\users\\suraj\\onedrive\\desktop\\internship\\tasks\\guitarapp\\guitarapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A398693-0292-4737-A928-F2B5C0DBDFDF}|GuitarApp\\GuitarApp.csproj|solutionrelative:guitarapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A398693-0292-4737-A928-F2B5C0DBDFDF}|GuitarApp\\GuitarApp.csproj|c:\\users\\suraj\\onedrive\\desktop\\internship\\tasks\\guitarapp\\guitarapp\\models\\builder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A398693-0292-4737-A928-F2B5C0DBDFDF}|GuitarApp\\GuitarApp.csproj|solutionrelative:guitarapp\\models\\builder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A398693-0292-4737-A928-F2B5C0DBDFDF}|GuitarApp\\GuitarApp.csproj|c:\\users\\suraj\\onedrive\\desktop\\internship\\tasks\\guitarapp\\guitarapp\\models\\types.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A398693-0292-4737-A928-F2B5C0DBDFDF}|GuitarApp\\GuitarApp.csproj|solutionrelative:guitarapp\\models\\types.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A398693-0292-4737-A928-F2B5C0DBDFDF}|GuitarApp\\GuitarApp.csproj|c:\\users\\suraj\\onedrive\\desktop\\internship\\tasks\\guitarapp\\guitarapp\\models\\wood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A398693-0292-4737-A928-F2B5C0DBDFDF}|GuitarApp\\GuitarApp.csproj|solutionrelative:guitarapp\\models\\wood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,45 +30,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Guitar.cs",
-              "DocumentMoniker": "C:\\Users\\Suraj\\OneDrive\\Desktop\\internship\\Tasks\\GuitarApp\\GuitarApp\\Models\\Guitar.cs",
-              "RelativeDocumentMoniker": "GuitarApp\\Models\\Guitar.cs",
-              "ToolTip": "C:\\Users\\Suraj\\OneDrive\\Desktop\\internship\\Tasks\\GuitarApp\\GuitarApp\\Models\\Guitar.cs",
-              "RelativeToolTip": "GuitarApp\\Models\\Guitar.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAADwv0UAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Suraj\\OneDrive\\Desktop\\internship\\Tasks\\GuitarApp\\GuitarApp\\Program.cs",
+              "RelativeDocumentMoniker": "GuitarApp\\Program.cs",
+              "ToolTip": "C:\\Users\\Suraj\\OneDrive\\Desktop\\internship\\Tasks\\GuitarApp\\GuitarApp\\Program.cs",
+              "RelativeToolTip": "GuitarApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T13:24:49.39Z",
+              "WhenOpened": "2024-10-17T13:51:14.914Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "GuitarSpecs.cs",
-              "DocumentMoniker": "C:\\Users\\Suraj\\OneDrive\\Desktop\\internship\\Tasks\\GuitarApp\\GuitarApp\\Models\\GuitarSpecs.cs",
-              "RelativeDocumentMoniker": "GuitarApp\\Models\\GuitarSpecs.cs",
-              "ToolTip": "C:\\Users\\Suraj\\OneDrive\\Desktop\\internship\\Tasks\\GuitarApp\\GuitarApp\\Models\\GuitarSpecs.cs",
-              "RelativeToolTip": "GuitarApp\\Models\\GuitarSpecs.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAywCcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T13:20:36.216Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "FindGuitarTester.cs",
               "DocumentMoniker": "C:\\Users\\Suraj\\OneDrive\\Desktop\\internship\\Tasks\\GuitarApp\\GuitarApp\\Controller\\FindGuitarTester.cs",
               "RelativeDocumentMoniker": "GuitarApp\\Controller\\FindGuitarTester.cs",
               "ToolTip": "C:\\Users\\Suraj\\OneDrive\\Desktop\\internship\\Tasks\\GuitarApp\\GuitarApp\\Controller\\FindGuitarTester.cs",
               "RelativeToolTip": "GuitarApp\\Controller\\FindGuitarTester.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T11:59:40.443Z",
+              "WhenOpened": "2024-10-17T13:49:45.014Z",
               "EditorCaption": ""
             },
             {
@@ -91,61 +66,35 @@
               "RelativeDocumentMoniker": "GuitarApp\\Models\\Inventory.cs",
               "ToolTip": "C:\\Users\\Suraj\\OneDrive\\Desktop\\internship\\Tasks\\GuitarApp\\GuitarApp\\Models\\Inventory.cs",
               "RelativeToolTip": "GuitarApp\\Models\\Inventory.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBYAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwB8AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T08:47:58.077Z",
+              "WhenOpened": "2024-10-17T13:33:07.563Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Suraj\\OneDrive\\Desktop\\internship\\Tasks\\GuitarApp\\GuitarApp\\Program.cs",
-              "RelativeDocumentMoniker": "GuitarApp\\Program.cs",
-              "ToolTip": "C:\\Users\\Suraj\\OneDrive\\Desktop\\internship\\Tasks\\GuitarApp\\GuitarApp\\Program.cs",
-              "RelativeToolTip": "GuitarApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
+              "Title": "Guitar.cs",
+              "DocumentMoniker": "C:\\Users\\Suraj\\OneDrive\\Desktop\\internship\\Tasks\\GuitarApp\\GuitarApp\\Models\\Guitar.cs",
+              "RelativeDocumentMoniker": "GuitarApp\\Models\\Guitar.cs",
+              "ToolTip": "C:\\Users\\Suraj\\OneDrive\\Desktop\\internship\\Tasks\\GuitarApp\\GuitarApp\\Models\\Guitar.cs",
+              "RelativeToolTip": "GuitarApp\\Models\\Guitar.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAuwFAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T08:33:19.677Z",
+              "WhenOpened": "2024-10-17T13:24:49.39Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Types.cs",
-              "DocumentMoniker": "C:\\Users\\Suraj\\OneDrive\\Desktop\\internship\\Tasks\\GuitarApp\\GuitarApp\\Models\\Types.cs",
-              "RelativeDocumentMoniker": "GuitarApp\\Models\\Types.cs",
-              "ToolTip": "C:\\Users\\Suraj\\OneDrive\\Desktop\\internship\\Tasks\\GuitarApp\\GuitarApp\\Models\\Types.cs",
-              "RelativeToolTip": "GuitarApp\\Models\\Types.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAHAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "GuitarSpecs.cs",
+              "DocumentMoniker": "C:\\Users\\Suraj\\OneDrive\\Desktop\\internship\\Tasks\\GuitarApp\\GuitarApp\\Models\\GuitarSpecs.cs",
+              "RelativeDocumentMoniker": "GuitarApp\\Models\\GuitarSpecs.cs",
+              "ToolTip": "C:\\Users\\Suraj\\OneDrive\\Desktop\\internship\\Tasks\\GuitarApp\\GuitarApp\\Models\\GuitarSpecs.cs",
+              "RelativeToolTip": "GuitarApp\\Models\\GuitarSpecs.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAgwBYAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T12:15:42.218Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Builder.cs",
-              "DocumentMoniker": "C:\\Users\\Suraj\\OneDrive\\Desktop\\internship\\Tasks\\GuitarApp\\GuitarApp\\Models\\Builder.cs",
-              "RelativeDocumentMoniker": "GuitarApp\\Models\\Builder.cs",
-              "ToolTip": "C:\\Users\\Suraj\\OneDrive\\Desktop\\internship\\Tasks\\GuitarApp\\GuitarApp\\Models\\Builder.cs",
-              "RelativeToolTip": "GuitarApp\\Models\\Builder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T12:17:54.598Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Wood.cs",
-              "DocumentMoniker": "C:\\Users\\Suraj\\OneDrive\\Desktop\\internship\\Tasks\\GuitarApp\\GuitarApp\\Models\\Wood.cs",
-              "RelativeDocumentMoniker": "GuitarApp\\Models\\Wood.cs",
-              "ToolTip": "C:\\Users\\Suraj\\OneDrive\\Desktop\\internship\\Tasks\\GuitarApp\\GuitarApp\\Models\\Wood.cs",
-              "RelativeToolTip": "GuitarApp\\Models\\Wood.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T12:18:40.3Z",
+              "WhenOpened": "2024-10-17T13:20:36.216Z",
               "EditorCaption": ""
             }
           ]

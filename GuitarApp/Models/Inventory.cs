@@ -27,12 +27,16 @@ namespace GuitarApp.Models
             return null;
         }
 
-        public static List<Guitar> SearchGuitar(Guitar guitar)
+        public static List<Guitar> SearchGuitar(GuitarSpecs searchGuitar)
         {
             List<Guitar> similarGuitaras = new List<Guitar>();
+            
             foreach (Guitar g in guitars)
             {
-                if ((guitar.GetBuilder() == g.Builder) && (guitar.GetModel() == g.Model) && (guitar.GetType() == g.Type) && (guitar.GetBackWood() == g.BackWood) && (guitar.GetTopWood() == g.TopWood))
+                GuitarSpecs specs = g.getSpecs();
+                if ((searchGuitar.GetBuilder() == specs.Builder) && (searchGuitar.GetModel() == specs.Model)
+                    && (searchGuitar.GetType() == specs.Type) && (searchGuitar.GetBackWood() == specs.BackWood)
+                    && (searchGuitar.GetTopWood() == specs.TopWood))
                 {
                     similarGuitaras.Add(g);
                 }
