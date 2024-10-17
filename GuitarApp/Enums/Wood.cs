@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GuitarApp.Models
+namespace GuitarApp.Enums
 {
     internal enum Wood
     {

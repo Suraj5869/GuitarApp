@@ -1,5 +1,6 @@
 ﻿using GuitarApp.Exceptions;
 using GuitarApp.Models;
+using GuitarApp.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,8 +12,8 @@ namespace GuitarApp.Controller
     internal class FindGuitarTester
     {
 
-        public List<Guitar> FindGuitar() {
-            GuitarSpecs findGuitar = new GuitarSpecs(Builder.COLLINGS, "model2", Types.ELECTRIC, 7, Wood.ALDER, Wood.ALDER);
+        public List<Guitar> FindGuitar(GuitarSpecs findGuitar) {
+            //Get the list of similar guitars and send it to the main function
             List<Guitar> SimilarGuitars = Inventory.SearchGuitar(findGuitar);
             if (SimilarGuitars.Count > 0)
             {

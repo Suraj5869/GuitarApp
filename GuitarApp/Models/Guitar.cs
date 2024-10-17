@@ -39,13 +39,12 @@ namespace GuitarApp.Models
       
         public GuitarSpecs GetSpecs()
         {
-           
             return Specs;
         }
 
     public override string ToString()
         {
-            return $"Guitar Specifications\n" +
+            return $"~~~~ Guitar Specifications ~~~~\n" +
                 $"Serial no: {SerialNumber}\n" +
                 $"Price: {Price}\n" +
                 $"Builder: {Specs.Builder}\n" +

@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GuitarApp.Models
+namespace GuitarApp.Enums
 {
-    internal enum Types
+    internal enum Builder
     {
-        ACOUSTIC, ELECTRIC
-
-       
+        FENDER, MARTIN, GIBSON, COLLINGS, OLSON, RYAN, PRS, ANY
     }
+
+
 }

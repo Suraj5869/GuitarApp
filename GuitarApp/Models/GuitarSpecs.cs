@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using GuitarApp.Enums;
 
 namespace GuitarApp.Models
 {
@@ -54,6 +55,7 @@ namespace GuitarApp.Models
             return numStrings;
         }
 
+        //It searches for the match of the guitar based in the specifiactions given by user
         internal bool Matches(GuitarSpecs searchGuitar)
         {
             if((searchGuitar.GetBuilder() == Builder) && (searchGuitar.GetModel() == Model)
